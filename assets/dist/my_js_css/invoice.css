@@ -1,0 +1,74 @@
+.main-page {
+    /* portrait
+        width: 210mm;
+        height: 276mm;
+
+    landscape
+        width: 276mm;
+        height: 190mm; */
+
+    width: 210mm;
+    height: 276mm;
+    /* width: 210mm; */
+   
+    margin: 0mm auto;
+    background: white;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+   
+ }
+ .sub-page {
+   padding: 0.5cm;
+   /* margin: 0 10px 0 50px; */
+   margin: 0px;
+ }
+ 
+ @page {
+   /* size: A4; */
+   size: A4 portrait;
+   margin: 0;
+ } 
+ 
+ /*
+ min-height: 297mm;
+ height: 297mm;
+ h1     { font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; font-size: 16pt; font-weight:600;  } 
+ h2     { font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; font-size: 18pt; font-weight:600; color:#bb1e26;   line-height:30px; }
+ h3     { font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; font-size: 10.7pt; font-weight:600; line-height:12px;}
+*/
+
+ h1     { font-family: Calibri; font-size: 16pt; font-weight:600;  } 
+ h2     { font-family: Calibri; font-size: 18pt; font-weight:600; color:#bb1e26;   line-height:28px; }
+ h3     { font-family: Calibri; font-size: 10.7pt; font-weight:600; line-height:12px;}
+
+
+.table-bordered , .table-bordered td {
+    border: 1px solid #000000 !important;
+	border-collapse: collapse !important;
+	font-family: Calibri; font-size: 12pt;	
+    /* text-transform: uppercase; */
+	padding: 2px !important;
+}
+
+.table-borderless , .table-borderless td {
+    /* border: none !important; */
+    border-collapse: collapse !important;
+	font-family: Calibri; font-size: 10pt;
+    /* text-transform: uppercase; */
+	padding: 2px !important;
+}
+
+.text-left {
+    text-align: left!important;
+}
+
+.text-right {
+    text-align: right!important;
+}
+.text-center {
+    text-align: center!important;
+}
+b{
+	font-weight:600;
+}
+
+	 

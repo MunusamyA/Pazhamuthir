@@ -1,0 +1,100 @@
+.login-page, .register-page {
+    background: rgba(0, 0, 0, 0) url(../../images/login-back.jpg) repeat scroll 0 0;
+}
+
+.action-title{
+    color: #3c8dbc;
+}
+
+.err {color: red;margin-left: 3px;}
+
+.info {color: red;font-style: italic;}
+
+/*label {font-weight: normal !important;}*/
+
+.loading-popup{background: transparent !important;}
+
+.pagination > li > a, .pagination > li > span{
+    border-radius: 25px;
+    margin-right: 5px;
+}
+
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover{
+    background-color:#146dcc !important;
+    border-color:#146dcc !important;
+}
+
+.select2 {
+	width:100% !important;
+}
+
+.content .alert{padding: 2px 32px 0px 10px !important;}
+
+.content .alert-dismissable .close, .alert-dismissible .close{top: 6px;}
+
+.content .alert .close{border-radius: 30px;border: 2px solid;width: 24px;}
+
+hr{margin-top: 10px !important;}
+
+.buttons-excel{background: #146dcc !important;color: #fff !important;border-color: #146dcc !important;}
+
+.buttons-colvis{background: #868a8e !important;color: #fff !important;border-color: #868a8e !important;}
+
+.buttons-print{background: #ac2925 !important;color: #fff !important;border-color: #ac2925 !important;}
+
+.dt-buttons {
+    float: right !important;
+}
+
+.dataTables_length{width: 22% !important;
+float: left !important;}
+
+.modal-header{background: #ECF0F5 !important;}
+.modal-footer{background: #ECF0F5 !important;}
+
+/*.bg-mai-aqua{background-color: #335fe3 !important;color: #fff;}*/
+
+/*.form-group input{
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+
+.form-group select{
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+
+.form-group{
+  margin-bottom: 30px !important;
+}*/
+
+.nav-tabs-custom{margin-bottom: 0px !important;}
+
+/*.row{margin-bottom: 15px!important;}*/
+
+.modal-xl {
+  width: 1140px !important;
+}
+
+.inputralign{
+    text-align:right;
+}
+
+.select2-selection__rendered {
+	line-height: 31px !important;
+}
+.select2-container .select2-selection--single {
+	height: 35px !important;
+}
+.select2-selection__arrow {
+	height: 34px !important;
+}
+
+.input_borderless{
+  border: none transparent; 
+  outline: none;
+  color: transparent;
+  text-shadow: 0 0 0 black;
+}

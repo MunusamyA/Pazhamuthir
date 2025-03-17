@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Toastr Demo</title>
+        <link href="toastr.min.css" rel="stylesheet">
+
+    </head>
+    <body>
+        Toast
+        
+        <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src='toastr.min.js'></script>
+        <script>
+        $(document).ready(function onDocumentReady() {
+            // Set the options that I want
+            toastr.options = {
+            "closeButton": true,
+            "newestOnTop": false,
+            "progressBar": true,
+            "positionClass": "toast-top-right",
+            "preventDuplicates": false,
+            "onclick": null,
+            "showDuration": "300",
+            "hideDuration": "1000",
+            "timeOut": "5000",
+            "extendedTimeOut": "1000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+            }
+
+            toastr.success("Hello World!");
+        });
+        </script>
+    </body>
+</html>
